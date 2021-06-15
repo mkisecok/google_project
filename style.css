@@ -11,18 +11,24 @@
      background-color: #eeecec;
  }
  
+ .container {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+ 
  #left {
-     float: left;
-     width: 35%;
      background-color: rgb(106, 207, 185);
  }
  
  #mitte {
-     background-color: teal;
+     background-color: rgb(70, 160, 160);
  }
  
  #recht {
-     float: right;
-     background-color: rgb(34, 194, 141);
-     width: 40%;
+     background-color: teal;
+ }
+ 
+ footer {
+     text-align: center;
  }
